@@ -1,1 +1,13 @@
-<svg id="flag-icons-tz" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 480"><defs><clipPath id="clip-path" transform="translate(40)"><rect width="640" height="480" fill="none"/></clipPath></defs><title>tz</title><g clip-path="url(#clip-path)"><path d="M-40,0H680V480H-40Z" transform="translate(40)" fill="#09f" fill-rule="evenodd"/><path d="M-40,0H680L-40,480Z" transform="translate(40)" fill="#090" fill-rule="evenodd"/><path d="M-40,480H120L680,100V0H520L-40,380Z" transform="translate(40)" fill-rule="evenodd"/><path d="M-40,366,508.8,0h54L-40,402ZM77.2,480,680,78v36L131.2,480Z" transform="translate(40)" fill="#ff0" fill-rule="evenodd"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-tz" viewBox="0 0 640 480">
+  <defs>
+    <clipPath id="tz-a">
+      <path fill-opacity=".7" d="M10 0h160v120H10z"/>
+    </clipPath>
+  </defs>
+  <g fill-rule="evenodd" stroke-width="1pt" clip-path="url(#tz-a)" transform="matrix(4 0 0 4 -40 0)">
+    <path fill="#09f" d="M0 0h180v120H0z"/>
+    <path fill="#090" d="M0 0h180L0 120V0z"/>
+    <path d="M0 120h40l140-95V0h-40L0 95v25z"/>
+    <path fill="#ff0" d="M0 91.5 137.2 0h13.5L0 100.5v-9zM29.3 120 180 19.5v9L42.8 120H29.3z"/>
+  </g>
+</svg>

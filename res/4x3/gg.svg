@@ -1,1 +1,9 @@
-<svg id="flag-icons-gg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><title>gg</title><path d="M0,0H640V480H0Z" fill="#fff"/><path d="M256,0H384V480H256Z" fill="#e8112d"/><path d="M0,176H640V304H0Z" fill="#e8112d"/><path id="a" d="M110,286.7l23.3-23.4h210V216.7h-210L110,193.3Z" fill="#f9dd16"/><path d="M273.3,30l23.4,23.3v210h46.6V53.3L366.7,30Z" fill="#f9dd16"/><path d="M366.7,450l-23.4-23.3v-210H296.7v210L273.3,450Z" fill="#f9dd16"/><path d="M530,193.3l-23.3,23.4h-210v46.6h210L530,286.7Z" fill="#f9dd16"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icons-gg" viewBox="0 0 640 480">
+  <path fill="#fff" d="M0 0h640v480H0z"/>
+  <path fill="#e8112d" d="M256 0h128v480H256z"/>
+  <path fill="#e8112d" d="M0 176h640v128H0z"/>
+  <path id="a" fill="#f9dd16" d="m110 286.7 23.3-23.4h210v-46.6h-210L110 193.3z"/>
+  <use xlink:href="#a" width="36" height="24" transform="rotate(90 320 240)"/>
+  <use xlink:href="#a" width="36" height="24" transform="rotate(-90 320 240)"/>
+  <use xlink:href="#a" width="36" height="24" transform="rotate(180 320 240)"/>
+</svg>

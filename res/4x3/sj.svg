@@ -1,1 +1,7 @@
-<svg id="flag-icons-sj" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><title>sj</title><path d="M0,0H640V480H0Z" fill="#ef2b2d"/><path d="M180,0H300V480H180Z" fill="#fff"/><path d="M0,180H640V300H0Z" fill="#fff"/><path d="M210,0h60V480H210Z" fill="#002868"/><path d="M0,210H640v60H0Z" fill="#002868"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-sj" viewBox="0 0 640 480">
+  <path fill="#ef2b2d" d="M0 0h640v480H0z"/>
+  <path fill="#fff" d="M180 0h120v480H180z"/>
+  <path fill="#fff" d="M0 180h640v120H0z"/>
+  <path fill="#002868" d="M210 0h60v480h-60z"/>
+  <path fill="#002868" d="M0 210h640v60H0z"/>
+</svg>

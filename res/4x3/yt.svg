@@ -1,1 +1,7 @@
-<svg id="flag-icons-yt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480"><title>yt</title><path d="M0,0H640V480H0Z" fill="#fff" fill-rule="evenodd"/><path d="M0,0H213.3V480H0Z" fill="#00267f" fill-rule="evenodd"/><path d="M426.7,0H640V480H426.7Z" fill="#f31830" fill-rule="evenodd"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="flag-icons-yt" viewBox="0 0 640 480">
+  <g fill-rule="evenodd" stroke-width="1pt">
+    <path fill="#fff" d="M0 0h640v480H0z"/>
+    <path fill="#00267f" d="M0 0h213.3v480H0z"/>
+    <path fill="#f31830" d="M426.7 0H640v480H426.7z"/>
+  </g>
+</svg>
