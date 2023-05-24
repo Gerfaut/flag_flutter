@@ -101,8 +101,7 @@ class Flag extends StatelessWidget {
   Widget build(BuildContext context) {
     String countryName = country.toLowerCase();
     if (this.countryCode != FlagsCode.NULL) {
-      countryName =
-          EnumToString.convertToString(this.countryCode).toLowerCase();
+      countryName = EnumToString.convertToString(this.countryCode).toLowerCase();
     }
 
     String assetName = 'packages/flag/res/4x3/$countryName.svg';
@@ -139,12 +138,11 @@ class Flag extends StatelessWidget {
     List<String> flagList = flagsCode,
   }) async {
     for (final flag in flagList) {
-      await precachePicture(
-          ExactAssetPicture(
-            SvgPicture.svgStringDecoderBuilder,
-            'packages/flag/res/4x3/$flag.svg',
-          ),
-          context);
+      final loader = SvgAssetLoader(
+        'res/4x3/$flag.svg',
+        packageName: "flag",
+      );
+      await svg.cache.putIfAbsent(loader.cacheKey(null), () => loader.loadBytes(null));
     }
   }
 }

@@ -15,7 +15,7 @@ class Flags extends StatelessWidget {
   /// The flag to display. Enum value for `FlagsCode`.
   ///
   /// This value listed in https://github.com/LunaGao/flag_flutter/blob/master/un_members.txt.
-  final List<FlagsCode> countiyCodes;
+  final List<FlagsCode> countryCodes;
 
   /// Requires the child to have exactly this height.
   ///
@@ -61,7 +61,7 @@ class Flags extends StatelessWidget {
   ///
   /// The [country] parameter must not be null.
   const Flags.fromCode(
-    this.countiyCodes, {
+    this.countryCodes, {
     Key? key,
     this.height = 300,
     this.width = 400,
@@ -69,8 +69,8 @@ class Flags extends StatelessWidget {
     this.flagSize = FlagSize.size_4x3,
     this.borderRadius,
   })  : assert(
-          countiyCodes.length == 2,
-          'countiyCodes count must be 2.',
+          countryCodes.length == 2,
+          'countryCodes count must be 2.',
         ),
         this.counties = const [],
         super(key: key);
@@ -92,18 +92,14 @@ class Flags extends StatelessWidget {
           counties.length == 2,
           'counties count must be 2.',
         ),
-        this.countiyCodes = const [],
+        this.countryCodes = const [],
         super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    List<String> countryNames =
-        this.counties.map((e) => e.toLowerCase()).toList();
-    if (this.countiyCodes.isNotEmpty) {
-      countryNames = this
-          .countiyCodes
-          .map((e) => EnumToString.convertToString(e).toLowerCase())
-          .toList();
+    List<String> countryNames = this.counties.map((e) => e.toLowerCase()).toList();
+    if (this.countryCodes.isNotEmpty) {
+      countryNames = this.countryCodes.map((e) => EnumToString.convertToString(e).toLowerCase()).toList();
     }
 
     List<Widget> flagWidgets = [];
